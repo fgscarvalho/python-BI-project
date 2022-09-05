@@ -134,7 +134,7 @@ def main():
     final_list.sort(key=key_loja)
 
     return final_list
-#entrar no servidor Mysql: looqbox-challenge
+#entrar no servidor Mysql:
 con = mysql.connector.connect(host='host',database='DB',user='User',password='Password')
 
 if con.is_connected():
