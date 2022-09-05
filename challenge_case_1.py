@@ -95,7 +95,7 @@ def main():
     
     return my_data
 
-#Connect  to MySQL server: looqbox-challenge
+#Connect  to MySQL server:
 con = mysql.connector.connect(host='host',database='DB',user='User',password='password')
 if con.is_connected():
     my_data = main()
